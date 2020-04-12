@@ -947,6 +947,7 @@
     /* Sample config file to put in /etc/yiimp/keys.php */
     define('"'"'YIIMP_MYSQLDUMP_USER'"'"', '"'"'panel'"'"');
     define('"'"'YIIMP_MYSQLDUMP_PASS'"'"', '"'"''"${password}"''"'"');
+    define('"'"'YIIMP_MYSQLDUMP_PATH'"'"', '"'"''"/var/yiimp/sauv"''"'"');
     /* Keys required to create/cancel orders and access your balances/deposit addresses */
     define('"'"'EXCH_BITTREX_SECRET'"'"', '"'"''"'"');
     define('"'"'EXCH_BITSTAMP_SECRET'"'"','"'"''"'"');
@@ -1023,8 +1024,7 @@
 
     define('"'"'YAAMP_LOGS'"'"', '"'"'/var/log/yiimp'"'"');
     define('"'"'YAAMP_HTDOCS'"'"', '"'"'/var/web'"'"');
-    define('"'"'YIIMP_MYSQLDUMP_PATH'"'"', '"'"''"/var/yiimp/sauv"''"'"');
-    
+        
     define('"'"'YAAMP_BIN'"'"', '"'"'/var/bin'"'"');
     
     define('"'"'YAAMP_DBHOST'"'"', '"'"'localhost'"'"');
